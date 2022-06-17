@@ -1,0 +1,30 @@
+.text-gray {
+    color: #4a4a4a;
+}
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    /* border: 1px black solid; */
+}
+
+.course-container {
+    background-color: lightgray;
+}
+
+@media only screen and (min-width: 575.98px) {
+    .bg-second {
+        background-color:lightgray ;
+    }
+
+    .bg-third {
+        background-color: white;
+    }
+    .course-container {
+        background-color: white;
+    }
+}
